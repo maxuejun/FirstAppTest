@@ -12,6 +12,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.maxuejun.firstapptest.activity.AsyncTaskActivity;
+import com.example.maxuejun.firstapptest.activity.SlidingMainActivity;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -40,6 +41,12 @@ public class MainActivity extends AppCompatActivity {
     @OnClick(R.id.btAsyncTask)
     public void btAsyncTask(Button button){
         Intent intent = new Intent(MainActivity.this, AsyncTaskActivity.class);
+        startActivity(intent);
+    }
+
+    @OnClick(R.id.btSlidingFlagment)
+    public void btSlidingFlagment(Button button){
+        Intent intent = new Intent(MainActivity.this, SlidingMainActivity.class);
         startActivity(intent);
     }
 

@@ -24,6 +24,11 @@
             android:name=".activity.AsyncTaskActivity"
             android:label="@string/title_activity_async_task"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity
+            android:name=".activity.SlidingMainActivity"
+            android:label="@string/sliding_activity_name"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

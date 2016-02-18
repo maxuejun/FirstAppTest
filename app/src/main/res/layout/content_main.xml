@@ -17,5 +17,12 @@
         android:layout_height="wrap_content"
         android:text="@string/asynctask_name"
         android:textSize="@dimen/btn_text_size"/>
+    <Button
+        android:id="@+id/btSlidingFlagment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btAsyncTask"
+        android:text="@string/sliding_activity_name"
+        android:textSize="@dimen/btn_text_size"/>
 
 </RelativeLayout>
