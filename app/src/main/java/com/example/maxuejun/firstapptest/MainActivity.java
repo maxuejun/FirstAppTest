@@ -11,6 +11,9 @@ import android.view.MenuItem;
 import android.view.View;
 
 import com.example.maxuejun.firstapptest.activity.AsyncTaskActivity;
+import com.example.maxuejun.firstapptest.activity.LiteCommonActivity;
+import com.example.maxuejun.firstapptest.activity.LiteHttpActivity;
+import com.example.maxuejun.firstapptest.activity.LiteOrmActivity;
 import com.example.maxuejun.firstapptest.activity.SlidingMainActivity;
 
 
@@ -70,21 +73,24 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
      * 使用LiteHttp 开源库的网络请求实例
      */
     private void clickLiteHttp(){
-
+        Intent intent = new Intent(MainActivity.this, LiteHttpActivity.class);
+        startActivity(intent);
     }
 
     /**
      * 使用LiteOrm 开源库进行数据库的操作
      */
     private void clickLiteOrm(){
-
+        Intent intent = new Intent(MainActivity.this, LiteOrmActivity.class);
+        startActivity(intent);
     }
 
     /**
      *LiteCommon 开源库
      */
     private void clickLiteCommon(){
-
+        Intent intent = new Intent(MainActivity.this, LiteCommonActivity.class);
+        startActivity(intent);
     }
 
     @Override
